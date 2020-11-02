@@ -15,7 +15,7 @@ class ipValidator {
         String[] ipSegments = ip.split("\\.");
         String lastSegment = ipSegments[ipSegments.length-1];
         if(ipSegments.length!= 4) {
-            return "Ip uzunluğu yanlış, ip düzenleyeniz ! ";
+            return "Ip uzunluğu yanlış, ip düzenleyeniz !! ";
         }
         return mesaj;
     }
