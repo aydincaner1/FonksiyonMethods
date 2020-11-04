@@ -2,22 +2,34 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        //CustomerManager customerManager = new CustomerManager();
-        //customerManager.Add();
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner= new Scanner(System.in);
+        System.out.println("bir deger giriniz ?");
+        int n = scanner.nextInt();
+        //String test = scanner.nextLine();
 
-        System.out.println("IP adresini giriniz:");
-        String ip = scanner.nextLine();
-
-        //String message = Ip4Validator.validate(ip);
-        String message =ipValidator.validate(ip);
+        String message =HackerTest.validated(n);
         System.out.println(message);
 
         scanner.close();
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("IP adresini giriniz:");
+//        String ip = scanner.nextLine();
+//
+//        //String message = Ip4Validator.validate(ip);
+//        String message =ipValidator.validate(ip);
+//        System.out.println(message);
+//
+//        scanner.close();
 
-        //Toplammethod toplammethod = new Toplammethod();
-        //toplammethod.topla3();
+
+
+        //CustomerManager customerManager = new CustomerManager();
+        //customerManager.Add();
+
+//        Toplammethod toplammethod = new Toplammethod();
+//        toplammethod.topla3();
 
 
 
